@@ -44,13 +44,7 @@ module.exports = {
       )
       .setColor("BLUE")
       .setDescription(
-        `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=${
-          client.config.ClientID
-        }&permissions=${
-          client.config.Permissions
-        }&scope=bot%20${client.config.Scopes.join("%20")}&redirect_url=${
-          client.config.Website
-        }${client.config.CallbackURL}&response_type=code)`
+        `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=875354804975710218&permissions=2205280576&scope=identify%20guilds%20applications.commands)`
       );
     interaction.send(embed);
   },
