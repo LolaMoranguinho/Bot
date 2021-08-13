@@ -125,10 +125,6 @@ SlashCommand: {
             value: `┕\`v${require("../package.json").version}\``,
             inline: true
         },{
-            name: ':blue_book: Discord.js', 
-            value: `┕\`v${version}\``,
-            inline: true
-        },{
             name: ':green_book: Node',
             value: `┕\`${process.version}\``,
             inline: true
