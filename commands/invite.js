@@ -24,7 +24,7 @@ module.exports = {
       )
       .setColor("BLUE")
       .setDescription(
-        `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=876449123472142347&permissions=2205280576&scope=identify%20guilds%20applications.commands)`
+        `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=876449123472142347&permissions=2205280576)`
       );
     message.channel.send(embed);
   },
