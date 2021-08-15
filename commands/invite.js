@@ -24,7 +24,7 @@ module.exports = {
       )
       .setColor("BLUE")
       .setDescription(
-        `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=876449123472142347&permissions=2205280576)`
+        `You can invite me by clicking [here](https://discord.com/api/oauth2/authorize?client_id=876449123472142347&permissions=8&scope=bot)`
       );
     message.channel.send(embed);
   },
@@ -44,7 +44,7 @@ module.exports = {
       )
       .setColor("BLUE")
       .setDescription(
-        `You can invite me by clicking [here](https://discord.com/oauth2/authorize?client_id=875354804975710218&permissions=2205280576&scope=identify%20guilds%20applications.commands)`
+        `You can invite me by clicking [here](https://discord.com/api/oauth2/authorize?client_id=876449123472142347&permissions=8&scope=bot)`
       );
     interaction.send(embed);
   },
